@@ -1,62 +1,64 @@
 /* add your CSS here */
-body{
-	font-family: "Times New Roman", Times, serif;
-	background-color:#c6a792;
-	color:#515151;
+
+body {
+    font-family: "Times New Roman", Times, serif;
+    background-color: #c6a792;
+    color: #515151;
 }
 
-#CardMainDiv{
-	display: block;
-	border: 1px solid #b4b1a9;
-	width:350px;
-	margin: 0 auto;
-	box-shadow: 4px 4px 5px #888888;
-	background-color:white;
-	border-radius:15px;
+.card-main-div {
+    display: block;
+    border: 1px solid #b4b1a9;
+    width: 350px;
+    margin: 0 auto;
+    box-shadow: 4px 4px 5px #888888;
+    background-color: white;
+    border-radius: 15px;
 }
 
-#CardHeaderImg{
-	width:330px;
-	display:block;
-	margin: 0 auto;
-	border:1px solid #c6a792;
-	margin-top:5px;
+.card-header-img {
+    width: 330px;
+    display: block;
+    margin: 0 auto;
+    border: 1px solid #c6a792;
+    margin-top: 5px;
 }
 
-h3{
-	color: #c6a792;
-	font-style: italic;
-	width:300px;
-	border:1px solid #c6a792;
-	text-align:center;
-	margin:0 auto;
-	margin-top:5px;
+h3 {
+    color: #c6a792;
+    font-style: italic;
+    width: 300px;
+    border: 1px solid #c6a792;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 5px;
 }
 
-#mainContent{
-	width: 330px;
-	margin: 0 auto;
-	background-color: white;
-	border:1px solid #c6a792;	
-	margin-top:5px;
-	margin-bottom:5px;
+.main-content {
+    width: 310px;
+    margin: 0 auto;
+    background-color: white;
+    border: 1px solid #c6a792;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 10px;
 }
 
-#summary {
-	font-style: italic;
-	color:#8c8c8c;
+.summary {
+    font-style: italic;
+    color: #8c8c8c;
 }
 
-#mainContent span {
-	font-weight: 800;
+.main-content span {
+    font-weight: 800;
 }
 
-ul{
-	list-style: none;
-	text-transform: capitalize;
-	padding:5px;
+ul {
+    list-style: none;
+    text-transform: capitalize;
+    padding: 5px;
 }
 
-p{
-	padding:10px;
+p {
+    padding: 10px;
 }
